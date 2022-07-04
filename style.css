@@ -6,16 +6,20 @@ body{
 .first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 10px;
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .flexible-container{
     display: flex;
+    align-content: center;
+    justify-content: space-evenly;
 }
 .half-width{
-    width: 50%;
+    width: 47%;
+    margin: 0 35;
 }
 h1{
     font-size: 60px;
@@ -43,6 +47,7 @@ span{
     color: gray;
     line-height: normal;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .btn{
     text-transform: uppercase;
@@ -64,13 +69,14 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 h3{
     font-size: 50px;
     margin: 0;
-    margin-top: 160px;
+    margin-top: 100px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .img-2{
     width: 450px;
@@ -78,4 +84,38 @@ h3{
     margin: 0;
     margin-top: 120px;
     margin-right: 60px;
+}
+.box-width{
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 14px 22px gray;
+    margin-bottom: 150px;
+    padding: 5px 36px 20px 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.p3{
+    color: orange;
+    font-size: 18px;
+    font-weight: 700;
+}
+.border-orange{
+    border-left: 7px solid orangered;
+}
+.border-blue{
+    border-left: 7px solid blue;
+}
+.experiment-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left
+    ;
+}
+footer p{
+    color: gray;
+    text-align: center;
 }
